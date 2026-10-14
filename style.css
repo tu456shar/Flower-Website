@@ -1,0 +1,435 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'meriweather',serif;
+}
+.all-content
+{
+    background:#f7f5f2;
+}
+html::-webkit-scrollbar-track
+{
+    background:transparent;
+}
+html::-webkit-scrollbar-thumb
+{
+    background:lightpink;
+    border-radius:10px;
+}
+html::-webkit-scrollbar
+{
+    width:10px;
+}
+
+/* Navbar Section Start */
+
+#Navbar
+{
+    background:#fff;
+}
+#logo
+{
+    font-size:30px;
+    margin-left:40px;
+}
+#logo span
+{
+    color:#ed2553;
+}
+.navbar-nav
+{
+    margin-left:50px;
+}
+.nav-item .nav-link
+{
+    color:#ed2553;
+    margin-left:20px;
+    font-weight:bold;
+    transition:0.5s;
+}
+.nav-item .nav-link:hover
+{
+    background:lightpink;
+    border-radius:5px;
+    color:#fff;
+}
+.form-control
+{
+    margin-left:500px;
+}
+#Navbar form button
+{
+    background:black;
+    color:white;
+    border:1px solid white;
+}
+.fa-solid
+{
+    font-size:30px;
+    letter-spacing:6px;
+    margin-right:15px;
+}
+.fa-solid:hover
+{
+    color:lightpink;
+}
+
+/* Navbar Section End */
+
+/* Home Section Start */
+#home
+{
+    width:100%;
+    height:90vh;
+    background-image:url('images/home.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:88%;
+}
+#home .content
+{
+    padding-top:210px;
+    margin-left:56px;
+}
+#home .content h3
+{
+    font-size:50px;
+    color:black;
+    font-weight:bold;
+}
+#home .content p
+{
+    margin-top:10px;
+    color:black;
+}
+#btn
+{
+    width:400px;
+    height:36px;
+    margin-top:20px;
+    background:black;
+    color:white;
+    border-radius:50px;
+    font-weight:bold;
+    border:none;
+    transition:0.5s ease;
+    cursor:pointer;
+}
+#btn:hover
+{
+    background:lightpink;
+    color:white;
+} 
+#home span
+{
+    color:lightpink;
+}
+/* Home Section End */
+
+/* About Section Start */
+#about
+{
+    width:100%;
+    height:100vh;
+}
+#about .conatiner
+{
+    padding-top:70px;
+}
+.heading
+{
+    text-align:center;
+    margin-bottom:50px;
+    color:lightpink;
+    font-size:50px;
+    font-weight:bold;
+    margin-top:60px;
+    border-bottom:2px solid #43121d;
+}
+.heading span
+{
+    color:black;
+}
+#about .card
+{
+    border-radius:10px;
+}
+#about .card img
+{
+    border-radius:10px;
+}
+#about-btn
+{
+    width:200px;
+    height:36px;
+    background:#a82c48;
+    border:2px solid #43121d;
+    color:white;
+    border-radius:50px;
+    font-weight:bold;
+    transition:0.5px;
+    cursor:pointer;
+}
+#about-btn:hover
+{
+    background:lightpink;
+    color:white;
+}
+@media screen and (max-width:982px)
+{
+    #about p
+    {
+        font-size:8px;
+    }
+}
+@media screen and (max-width:766px)
+{
+    #about p
+    {
+        font-size:15px;
+    }
+    #about
+    {
+        height:120vh;
+    }
+    
+}
+/* About Section End*/
+
+/* Product Section Start*/
+#product
+{
+    width:100%;
+}
+.heading4
+{
+    font-size:50px;
+    font-weight:bold;
+    text-align:center;
+    padding-top:100px;
+    border-bottom:2px solid #43121d;
+}
+.heading4 span
+{
+    color:lightpink;
+}
+#container3
+{
+    margin-top:30px;
+}
+#product h3
+{
+    text-align:center;
+    font-size:40px;
+    color:lightslategray;
+}
+#product p
+{
+    color:#43121d;
+    padding-top:10px;
+}
+#product p span
+{
+    float:right;
+    cursor:pointer;
+}
+/* Product Section End*/
+
+/* Review Section Start */
+.review .box-container
+{
+    display:flex;
+    flex-wrap:wrap;
+    gap:1.5rem;
+}
+.review .box-container .box
+{
+    flex:1 1 30rem;
+    box-shadow:0.5rem 1.5rem rgba(0,0,0,.1);
+    border-radius:.5rem;
+    padding:3rem 2rem;
+    position:relative;
+}
+.review .box-container .box .fa-quote-right
+{
+    position:absolute;
+    bottom:3rem;
+    right:3rem;
+    font-size:6rem;
+    color:#eee;
+}
+.review .box-container .box .stars i
+{
+    color:lightpink;
+    font-size:2rem;
+}
+.review .box-container .box p
+{
+    color:#ed2553;
+    font-size:1.5rem;
+    line-height:1.5;
+    padding-top:2rem;
+}
+.review .box-container .box .user
+{
+    display:flex;
+    align-items:center;
+    padding-top:2rem;
+}
+.review .box-container .box .user img
+{
+    height:6rem;
+    width:6rem;
+    border-radius:50%;
+    object-fit:cover;
+    margin-right:1rem;
+}
+.review .box-container .box .user h3
+{
+    font-size:2rem;
+    color:#a82c48;
+}
+.review .box-container .box .user h3
+{
+    font-size:1.5rem;
+    color:#a82c48;
+}
+.heading2
+{
+    color:black;
+    text-align:center;
+    font-size:50px;
+    font-weight:bold;
+    padding-top:70px;
+    border-bottom:2px solid #43121d;
+}
+.heading2 span
+{
+    color:lightpink;
+}
+/* Review Section End */
+
+/* Contact Section Start */
+.contact{
+    width: 100%;
+    height: 100vh;
+    background: #f7f5f2;
+    padding-top: 70px;
+  }
+  .contact .container{
+    width: 100%;
+    height: 80vh;
+    background: white;
+    background: linear-gradient(90deg, white 80%,lightpink 20%);
+    border-radius: 10px;
+  }
+  .heading6{
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 70px;
+    border-bottom:2px solid #43121d;
+  }
+  .heading6 span{
+    color:lightpink;
+  }
+  .contact p{
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+  }
+  .contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid;
+  }
+  #contact-btn
+  {
+    width: 200px;
+    height: 36px; 
+    border: none;
+    background:#a82c48;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .contact h1
+  {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  @media screen and (max-width:766px)
+  {
+    .contact .container
+    {
+    background: white;
+    }
+    #col
+    {
+      width: 100%;
+      background: #b2744c;
+    }
+    .contact
+    {
+      height: 150vh;
+    }
+  }
+  @media screen and (max-width:400px)
+  {
+    .contact input
+    {
+      width: 250px;
+    }
+    
+  }
+/* Contact Section End */
+
+/* Footer Section Start */
+#footer
+{
+    width:100%;
+    background:lightpink;
+    margin-top: 50px;
+}
+  
+#footer .socail-links i
+{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.credite
+{
+    color: white;
+    margin-top: 20px;
+    font-size:30px;
+}
+.credite
+{
+    text-shadow: 0px 0px 1px black;
+}
+.credite a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size:30px;
+}
+.credite a span
+{
+    color: black;
+}
+.copyright span
+{
+    color: black;
+    font-size:20px;
+}
